@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+
+  /* FIRST PART */
+  .wrapper_one {
+    background-color: #1F2937;
+    min-height: 400px;
+    color:white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 15%;
+  }
+  header > h2{
+    margin-top: 5px;
+  }
+  header > ul {
+    display:flex;
+    gap: 10px;
+    list-style: none;
+    color:rgb(175, 173, 173);
+  }
+
+  a {
+    text-decoration: none;
+    color:grey;
+  }
+  
+  .img_place_holder{
+    height: 200px;
+    width:400px;
+    background-color: grey;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    
+  }
+
+  .main_info{
+    display: flex;
+    margin: 50px 15%;
+    justify-content:center;
+    align-items: center;
+    gap:30px;
+  }
+  .main_info_text > h1{
+    font-size: 48px;
+  }
+
+  .main_info_text > p {
+    font-size: 18px;
+  }
+
+  button {
+    background-color: #3882F6;
+    width: 100px;
+    height: 25px;
+    border-radius: 7px;
+    color:white;
+    font-weight: 800;
+    border: none;
+    margin:10px;
+  }
+
+  /* SECOND PART */
+
+  .wrapper_two{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    min-height: 300px;
+    flex-wrap: wrap;
+  }
+  .some_info{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin: 30px 0 30px 0;
+  }
+  .square {
+    width: 150px;
+    height: 150px;
+    border: 3px solid rgb(132, 132, 228);
+    border-radius: 7px;
+    flex-shrink: 1;
+  }
+
+  .subtext{
+    display:flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 150px;
+    gap: 5px;
+    text-align: center;
+    margin:12px;
+    }
+
+    /* THIRD PART*/
+
+    .wrapper_three{
+        min-height: 350px;
+        background-color: #E5E7EB;
+        display: flex;
+        flex-direction:column;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .quote{
+        font-size: 36px;
+        color:#1F2937;
+        margin: 0 27% 0 27%;
+    }
+
+    .signed{
+        margin-left: 27%;
+    }
+
+    /* FOURTH PART */
+
+    .wrapper_four{
+        min-height: 250px;
+        background-color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin:auto;
+    }
+
+    .call_to_action_and_button{
+        width: 800px;
+        background-color: rgb(127, 127, 211);
+        display:flex;
+        height:150px;
+        align-items: center;
+        justify-content:space-evenly;
+        border-radius: 10px;
+        color:white;
+    }
+
+    footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    color:white;
+    height: 60px;
+    }
+
+   
